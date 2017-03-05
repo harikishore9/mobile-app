@@ -21,7 +21,7 @@
     "@angular/platform-server": "2.2.1",
     "@ionic/storage": "1.1.7",
     "ionic-angular": "2.1.0",
-    "ionic-native": "2.4.1",
+    "ionic-native": "^2.4.1",
     "ionicons": "3.0.0",
     "rxjs": "5.0.0-beta.12",
     "sw-toolbox": "3.4.0",
@@ -37,7 +37,12 @@
     "cordova-plugin-statusbar",
     "cordova-plugin-device",
     "cordova-plugin-splashscreen",
-    "ionic-plugin-keyboard"
+    "ionic-plugin-keyboard",
+    "cordova-plugin-calendar",
+    "cordova-plugin-compat",
+    "cordova-plugin-geolocation",
+    "cordova-plugin-network-information",
+    "cordova-plugin-spinner-dialog"
   ],
   "cordovaPlatforms": [
     "ios",
@@ -45,6 +50,11 @@
       "platform": "ios",
       "version": "",
       "locator": "ios"
+    },
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
     }
   ],
   "description": "mobile-app: An Ionic project"
